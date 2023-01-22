@@ -1,0 +1,60 @@
+html {
+    font-size: 16px;
+}
+
+.vw {
+    font-size: 5vw;
+}
+
+.vh {
+    font-size: 10vh;
+}
+
+.em {
+    font-size: 5em;
+
+}
+
+.rem {
+    font-size: 5rem;
+}
+
+.px {
+    font-size: 10px;
+}
+
+div + p {
+    background: yellow;
+}
+
+div > p {
+    background: red;
+}
+
+div ~ h4 {
+    background: violet;
+}
+
+.transit {
+    width: 100px;
+    height: 100px;
+    background: brown;
+    transition: height 2s, width 4s;
+    transition-delay: 1s;
+}
+
+.transit:hover {
+    height: 300px;
+    width: 300px;
+}
+
+.transit-delay {
+    transition-delay: 1s;
+}
+
+.transit-transform {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transform: rotateX(180deg);
+}

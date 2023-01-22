@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Demostrating CSS units</h2>
+    <h3>VW and VH</h3>
+    <h4 class="vw">Hello vw unit</h4>
+    <p>The VW unit changes its font size when we resize the width of the browser</p>
+    <h4 class="vh">Hello vh unit</h4>
+    <p>The VH unit changes its font size when we resize the height of the browser</p>
+    <h4 class="rem">Hello rem unit</h4>
+    <p>The REM unit relative to font-size of root element</p>
+    <h4 class="em">Hello em unit</h4>
+    <p>The EM unit relative to the font-size of the element</p>
+    <h4 class="px">Hello px unit</h4>
+    <p>The px unit is the normal pixel that we use</p>
+
+    <h2>Demonstrating Css combinators</h2>
+    <div>
+        <p>This is a paragraph tag.</p>
+        <p>div > p means that there should be p tag under the div to apply the CSS rules</p>
+    </div>
+    <p>This is a paragraph tag.</p>
+    <p>second p tag applies CSS rules because "div + p" combinator means that there should be a p tag after the div tag. </p>
+
+    <div>
+        <p>This is a paragraph tag</p>
+    </div>
+    <h4>This is also a paragraph tag but it is coming after div tag is over.</h4>
+    <h4>Same goes for this tag.</h4>
+    <p>These tags has background violet because these p tags come after the div tag is over. div ~ p.</p>
+
+    <h2>Demonstrating transition property</h2>
+    <div class="transit"></div>
+    <p>Whenever we hover on the square above it height gets changed. We use transition property here.</p>
+    <p>we can also apply transition delay to delay fwhen hovering the sqaure for 1s</p>
+
+    <h2>Demonstrating transform property</h2>
+    <div class="transit-transform">Hello world</div>
+    <p>tranform property where we rotated the square 180deg</p>
+
+    
+</body>
+</html>
